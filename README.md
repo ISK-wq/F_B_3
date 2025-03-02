@@ -6,10 +6,13 @@
 ```bash
 git clone https://github.com/ISK-wq/F_B_2.git
 cd cat-store
+```
 
 ### 2. Устанавливаем зависимости и запускаем сервера
+```bash
 cd product-server && npm install && node server.js
 cd ../admin-server && npm install && node server.js
+```
 
 ### 3. Открываем в браузере:
 Каталог котиков: http://localhost:3000
@@ -28,6 +31,7 @@ cd ../admin-server && npm install && node server.js
 [
   { "name": "Товар", "price": 1000, "description": "Описание", "categories": ["Категория1"] }
 ]
+```
 
 ### Редактировать товар
 PUT /api/products/{id}
